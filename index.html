@@ -30,23 +30,51 @@
                     <div class="header-nav-box">
 
                         <nav class="header-nav">
-                            <ul class="header-menu">
+                            <ul class="header-menu header-menu--hid">
 
-                                <li><a class="header__link" href="#">shop</a></li>
-                                <li><a class="header__link" href="#">membership</a></li>
-                                <li><a class="header__link" href="#">our story</a></li>
+                                <li><a class="header__link" href="#shop">shop</a></li>
+                                <li><a class="header__link" href="#members">membership</a></li>
+                                <li><a class="header__link" href="#our-story">our story</a></li>
                             </ul>
 
                             <a href="#" class="logo-box">
                                 <img class="logo" src="images/logo.svg" alt="logo">
                             </a>
 
-                            <ul class="header-menu">
-                                <li><a class="header__link" href="#">Newsletter</a></li>
+                            <ul class="header-menu header-menu--hid">
+                                <li><a class="header__link" href="#email">Newsletter</a></li>
                                 <li><a class="header__link" href="#">Account</a></li>
-
-                                <li class="header__link header-cart">cart <span></span></li>
+                                <li><a class="header__link" href="#contacts">Contacts</a></li>
+                                <!-- <li class="header__link header-cart">cart <span></span></li> -->
                             </ul>
+
+
+                            <div class="burger" id="burger">
+                                <img src="images/burger.svg" alt="burger">
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="header-nav__slide-menu" id="slide-menu">
+                        <nav class="header-nav header-nav--slide">
+                            <ul class="header-menu header-menu--slide">
+
+                                <li><a class="header__link" href="#shop">shop</a></li>
+                                <li><a class="header__link" href="#members">membership</a></li>
+                                <li><a class="header__link" href="#our-story">our story</a></li>
+                            </ul>
+
+                            <ul class="header-menu header-menu--slide">
+                                <li><a class="header__link" href="#email">Newsletter</a></li>
+                                <li><a class="header__link" href="#">Account</a></li>
+                                <li><a class="header__link" href="#contacts">Contacts</a></li>
+
+                                <!-- <li class="header__link header-cart">cart <span></span></li> -->
+                            </ul>
+
+                            <div class="cross" id="cross">
+                                <img src="images/cross.svg" alt="cross">
+                            </div>
 
                         </nav>
                     </div>
@@ -64,7 +92,7 @@
                                 ingredients you can feel good about.
                                 Just pour, sip, and enjoy.</p>
 
-                            <a class="banner-description__link" href="#"> shop all </a>
+                            <a class="banner-description__link" href="#shop-all"> shop all </a>
                         </div>
 
                     </div>
@@ -117,11 +145,11 @@
 
             <div class="container">
 
-                <div class="popular-drinks-box">
+                <div class="popular-drinks-box" id="shop">
 
                     <div class="popular-drinks__header">
 
-                        <h2 class="popular-drinks-box__title">Made with natural ingredients, nothing fake</h2>
+                        <h2 class="popular-drinks-box__title" id="shop-all">Made with natural ingredients, nothing fake</h2>
 
                         <a class="popular-drinks__shop-all-link" href="#">Shop All Flavors</a>
                     </div>
@@ -200,7 +228,7 @@
             </div>
 
             <div class="container">
-                <div class="advantages-box">
+                <div class="advantages-box" id="our-story">
 
                     <div class="advantages__description">
 
@@ -236,7 +264,7 @@
             </div>
 
             <div class="container">
-                <div class="customer-comments-box">
+                <div class="customer-comments-box" id="members">
 
                     <div class="customer-comments__item">
                         <p class="customer-comments__text">“Haus has found the solution I didn’t really know I was
@@ -334,9 +362,9 @@
 
                 <div class="footer_inner">
 
-                    <div class="feedback">
+                    <div class="feedback" id="contacts">
 
-                        <div class="email-box">
+                        <div class="email-box" id="email">
 
                             <h2 class="email-box__header">Stay posted</h2>
 
@@ -356,48 +384,52 @@
 
                         <div class="info">
 
-                            <div class="info__explore">
+                            <div class="info__explore info__item">
+                                <div>
+                                    <h3 class="info__header">explore</h3>
 
-                                <h3 class="info__header">explore</h3>
-
-                                <ul>
-                                    <li><a href="#">home</a></li>
-                                    <li><a href="#">shop</a></li>
-                                    <li><a href="#">Membership</a></li>
-                                    <li><a href="#">Our Story</a></li>
-                                    <li><a href="#">faq</a></li>
-                                    <li><a href="#">Refer a Friend</a></li>
-                                    <li><a href="#">Corporate Gifting</a></li>
-                                    <li><a href="#">Gift Card</a></li>
-                                </ul>
-
+                                    <ul>
+                                        <li><a href="#">home</a></li>
+                                        <li><a href="#">shop</a></li>
+                                        <li><a href="#">Membership</a></li>
+                                        <li><a href="#">Our Story</a></li>
+                                        <li><a href="#">faq</a></li>
+                                        <li><a href="#">Refer a Friend</a></li>
+                                        <li><a href="#">Corporate Gifting</a></li>
+                                        <li><a href="#">Gift Card</a></li>
+                                    </ul>
+                                </div>
                             </div>
 
-                            <div class="info__follow">
+                            <div class="info__follow info__item">
+                                <div>
 
-                                <h3 class="info__header">follow</h3>
+                                    <h3 class="info__header">follow</h3>
 
-                                <ul>
-                                    <li><a href="#">Instagram</a></li>
-                                    <li><a href="#">Spotify</a></li>
-                                    <li><a href="#">Twitter</a></li>
-                                    <li><a href="#">Facebook</a></li>
-                                </ul>
+                                    <ul>
+                                        <li><a href="#">Instagram</a></li>
+                                        <li><a href="#">Spotify</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">Facebook</a></li>
+                                    </ul>
 
+                                </div>
                             </div>
 
-                            <div class="info__drop-us">
+                            <div class="info__drop-us info__item">
+                                <div>
+                                    <h3 class="info__header">Drop Us a Line</h3>
 
-                                <h3 class="info__header">Drop Us a Line</h3>
-
-                                <ul>
-                                    <li><a href="mailto:hello@drink.haus">hello@drink.haus</a></li>
-                                    <li><a href="mailto:press@drink.haus">press@drink.haus</a></li>
-                                    <li><a href="mailto:partnerships@drink.haus">partnerships@drink.haus</a></li>
-                                    <li><a href="mailto:jobs@drink.haus">jobs@drink.haus</a></li>
-                                    <li><a target="_blank" href="mailto:wholesale@drink.haus">wholesale@drink.haus</a>
-                                    </li>
-                                </ul>
+                                    <ul>
+                                        <li><a href="mailto:hello@drink.haus">hello@drink.haus</a></li>
+                                        <li><a href="mailto:press@drink.haus">press@drink.haus</a></li>
+                                        <li><a href="mailto:partnerships@drink.haus">partnerships@drink.haus</a></li>
+                                        <li><a href="mailto:jobs@drink.haus">jobs@drink.haus</a></li>
+                                        <li><a target="_blank"
+                                                href="mailto:wholesale@drink.haus">wholesale@drink.haus</a>
+                                        </li>
+                                    </ul>
+                                </div>
 
                             </div>
 
@@ -430,7 +462,7 @@
 
 
 
-
+    <script src="js/app.min.js"></script>
 
 </body>
 
