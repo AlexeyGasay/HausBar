@@ -1,0 +1,109 @@
+.set-mod-box__background {
+    padding: 60px 0 60px 60px;
+    
+}
+
+.set-mod-box {
+    text-align: center;
+    background-image: url('../images/set-the-mod.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+    
+}
+
+.spotify-box {
+    background-color: #000;
+    color: #fff;
+    max-width: 550px;
+    box-sizing: border-box;
+    padding: 40px 70px;
+    margin-bottom: 20px;
+}
+
+.spotify-box__header {
+    font-family: "Liberation Serif", sans-serif;
+    font-size: 55px;
+    line-height: 80px;
+    font-weight: 400;
+}
+
+.spotify-box__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 10px 0 26px 0;
+
+}
+
+.spotify-box__link {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    transition: .3s;
+
+}
+
+.spotify-box__link:hover,
+.spotify-box__link:focus {
+    transition: .3s;
+    background-color: #1db954;
+    color: #fff;
+
+}
+
+.set-mod__our-contacts {
+    background-color: #000;
+    color: #fff;
+    max-width: 550px;
+    padding: 30px 120px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.set-mod__our-contacts__text {
+    font-size: 16px;
+    line-height: 28px;
+
+}
+
+.set-mod__our-contacts__link {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 17px 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.set-mod__our-contacts__link::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color:#fff;
+    width: 100%;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    visibility: hidden;
+    transition: 0.3s;
+    transform: scale(0);
+}
+
+.set-mod__our-contacts__link:hover:after {
+    transform: scale(1);
+    transition: 0.3s;
+    visibility: visible;
+}

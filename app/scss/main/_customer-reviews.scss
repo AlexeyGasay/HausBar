@@ -1,0 +1,34 @@
+.customer-comments-box {
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    text-align: center;
+    padding: 95px 0 50px 0;
+}
+
+.customer-comments__item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    max-width: 318px;
+    margin: 0 75px;
+    
+}
+
+.customer-comments__text {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.customer-comments__author {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 18px 0 10px 0;
+}
+
+.customer-comments__verified {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8A8A8A;
+}

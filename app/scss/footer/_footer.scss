@@ -1,0 +1,159 @@
+
+.footer_inner {
+    background-color: #000;
+    color: #fff;
+    padding: 45px 60px 55px 60px;
+}
+
+.footer_inner a {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-box__header {
+    font-size: 42px;
+    font-family: "Liberation Serif", sans-serif;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.email-box__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    max-width: 424px;
+}
+
+.email-form {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 440px;
+    box-sizing: border-box;
+}
+
+.email-form::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #8A8A8A;
+    left: 0;
+    bottom: 0;
+}   
+
+.email-form__email-input {
+    background: none;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.email-form__email-input::placeholder {
+    font-size: 9px;
+    width: 100%;
+}
+
+.email-form__submit {
+    background: none;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info__follow {
+    margin: 0 130px;
+}
+
+.info__header {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.info a {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    transition: .3s;
+}
+
+.footer_inner a::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: #fff;
+    width: 100%;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    visibility: hidden;
+    transition: .3s;
+    transform: scale(0);
+}
+
+.footer_inner a:hover:after {
+    transform: scale(1);
+    transition: .3s;
+    visibility: visible;
+}
+
+
+.copyright {
+    display: flex;
+    margin-top: 140px;
+}
+
+.copyright__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.copyright__menu {
+    display: flex;
+
+}
+
+
+.copyright__link {
+    margin-left: 60px;  
+    position: relative;
+}

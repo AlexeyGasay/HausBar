@@ -1,0 +1,405 @@
+@media  (max-width: 1440px){
+    .popular-drinks {
+        padding: 0 20px;
+    }
+    .advantages__image-img {
+        max-width: 700px;
+    }
+    
+}
+
+@media (max-width: 1280px) {
+ 
+    .header__link {
+        margin: 0 30px;
+    }
+
+    .banner-description {
+        padding: 200px 15px 0 60px;
+    }
+
+
+
+    .popular-drinks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .popular-drinks__drink {
+        width: 50%;
+    }
+
+    .popular-drinks__text {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+
+
+    .aperetifs__title  {
+        font-size: 40px;
+    }
+
+    .advantages__image-img {
+        max-width: 540px;
+    }
+
+    
+    .about-poduct__description {
+        padding-left: 30px;
+    }
+
+    .about-poduct__header {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .about-poduct__text {
+        margin: 25px 0;
+    }
+
+    .info__follow {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+
+    .header__link {
+        margin: 0 15px;
+    }
+
+    .banner-description {
+        padding: 200px 15px 0 60px;
+    }
+
+    
+    .banner-description__title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+
+    .brands-quotes-box {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 60px 20px 40px;;
+    }
+    .brands-quotes-box__quote {
+        width: 50%;
+        margin-bottom: 20px;
+    }   
+
+    .popular-drinks__drink {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+
+
+    .advantages-box {
+        flex-direction: column-reverse;
+
+    }
+
+    .advantages__description {
+        padding: 0;
+    }
+
+    .advantages__image-img {
+        max-width: 100%;
+    }
+
+
+
+    .customer-comments__item {
+        margin: 0 25px;
+    }
+
+
+
+    .about-poduct {
+        flex-direction: column;
+    }
+
+    .about-poduct__image {
+        text-align: center;
+    }
+
+    .about-poduct__description {
+        margin-top: 10px;
+        padding: 0;
+    }
+   
+
+
+
+    .footer_inner {
+        padding: 45px 60px 55px 0px;
+    }
+
+
+
+    .feedback {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .email-box {
+        // margin: 0 auto;
+        padding: 0 70px;
+    }
+
+    .info {
+        margin-top: 40px;
+        padding: 0 70px;
+    }
+
+    .info__follow {
+        margin: 0;
+    }
+
+    .copyright {
+        padding-left: 70px;
+    }
+
+    .copyright__link {
+        margin-left: 20px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .banner-box {
+        height: 700px;
+    }
+
+    .banner-background-box,
+    .banner-description-box {
+        height: 700px;
+        
+    }
+
+    .banner-background-box {
+        width: 45%;
+        
+    }
+    .banner-description-box {
+        width: 55%;
+
+    }
+    .banner-description {
+        padding: 100px 15px 0 30px;
+    }
+
+    .header-menu--hid {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        color: #fff;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .header-nav-box {
+        z-index: 1;
+    }
+
+
+
+    .banner-background-box {
+        min-width: 100%;
+    }
+
+    .banner-description-box {
+        position: relative;
+        right: 100%;
+        min-width: 100%;
+        background: rgba($color: #000000, $alpha: 0.3);
+        // opacity: .3;
+
+    }
+    .banner-description {
+        opacity: 1;
+        min-width:  100%;
+
+    }
+
+
+
+    .brands-quotes-box {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
+
+    .aperetifs-box {
+        padding: 0 30px;
+    }
+    
+
+
+
+    .about-poduct {
+        padding: 60px 30px;
+    }
+
+    .about-poduct__image {
+        min-width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+
+    
+    .set-mod-box__background {
+        padding: 60px 20px;       
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .footer_inner {
+        padding: 45px 30px 55px 0;
+    }
+
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+
+    .copyright__menu {
+        flex-direction: column;      
+        
+        li {
+            margin: 5px 0;
+        }
+    }
+
+    .copyright__link {
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    
+
+
+    .aperetifs__description {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+    }
+
+    .advantages-box {
+        padding: 0 20px;
+    }
+
+    .customer-comments-box {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .customer-comments__item {
+        margin: 20px 0;
+    }
+    .info {
+        flex-wrap: wrap;
+        padding: 0 20px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .info__item {
+        margin: 20px 0;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .set-mod__our-contacts {
+        padding: 30px 100px;
+    }
+
+    .popular-drinks__drink img {
+        width: 100%;
+    }
+
+    .aperetifs-box {
+        padding: 0 20px;
+    }
+
+    .about-poduct {
+        padding: 60px 20px;
+    }
+
+    .email-box {
+        padding: 0 20px;
+    }
+
+    .copyright {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .cross {
+        right: 10%;
+    }
+
+    .banner-description {
+        padding: 100px 0px 0px 10px;
+    }
+
+    .popular-drinks__header {
+        padding: 0 5px;
+    }
+
+    .aperetifs-box {
+        padding: 0 10px;
+    }
+
+    .advantages-box {
+        padding: 0 10px; 
+    }
+
+    .customer-comments-box {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .about-poduct {
+        padding: 60px 10px;
+    }
+
+    .spotify-box {
+        padding: 40px 50px;
+    }
+
+    .set-mod__our-contacts {
+        padding: 30px 60px;
+    }
+
+    .footer_inner {
+        padding: 45px 10px 55px 10px;
+    }
+}
